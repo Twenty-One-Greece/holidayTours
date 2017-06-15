@@ -2,5 +2,5 @@
 holidayTours website
 
 ### Run it with:
-`git clone https://github.com/Twenty-One-Greece/holidayTours`
-`php -S localhost:4000`
+Clone it: `git clone https://github.com/Twenty-One-Greece/holidayTours`
+Run it with a php server: `php -S localhost:4000`
