@@ -1,0 +1,33 @@
+{
+  "name": "angular-metatags",
+  "homepage": "https://github.com/AvraamMavridis/angular-metatags",
+  "authors": [
+    "Avraam Mavridis <avr.mav@gmail.com>"
+  ],
+  "description": "Module for providing dynamic Meta Tags to Angular routes",
+  "main": "./angular-metatags-module/angular-metatags.js",
+  "keywords": [
+    "angular",
+    "metatags",
+    "meta"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "60e4d3688f",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "60e4d3688fa65e2193cc6db0deb58d20cbc14d6e"
+  },
+  "_source": "https://github.com/AvraamMavridis/angular-metatags.git",
+  "_target": "*",
+  "_originalSource": "angular-metatags",
+  "_direct": true
+}

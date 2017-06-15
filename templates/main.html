@@ -1,0 +1,656 @@
+<!-- Header Carousel -->
+
+<header id="myCarousel" class="carousel slide">
+
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="fill" style="background-image:url('http://my.twenty-one.co/uploads/services/e7AkdDB-meteora-monastery-new1.jpg');"></div>
+            <div class="carousel-caption">
+                <div class="carousel-fasa">
+                    <h2>Meteora from Thessaloniki</h2>
+                    <h3 class="h3-carousel">A highlight of your stay in Greece will be a visit to the Meteora Monasteries.</h3>
+                    <!--<h4 class="h4-carousel">Departure days: Monday</h4>-->
+                    <div class="carousel-price">
+                        starting at <span class="carousel-price-span">55€</span>
+                        <br>
+                        <a class="btn btn-default btn-lg carousel-button" href="http://holidaytours.gr/#/service/58d26fd46377390f246dc962" role="button">See More</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="fasa">
+
+            </div>
+
+        </div>
+        <div class="item">
+            <div class="fill" style="background-image:url('http://my.twenty-one.co/uploads/services/CuY5AbH-cfcyU1B-white-tower-1 new.jpg');"></div>
+            <div class="carousel-caption">
+                <div class="carousel-fasa">
+                    <div class="row">
+                        <h2>Thessaloniki City Tour from Thessaloniki</h2>
+                        <h3 class="h3-carousel">Meet us at the pickup point near to your hotel and begin the sightseeing tour of Thessaloniki.</h3>
+
+                        <div class="carousel-price">
+                            starting at <span class="carousel-price-span">20€</span>
+                            <br>
+                            <a class="btn btn-default btn-lg carousel-button" href="http://holidaytours.gr/#/service/58d2822d6377390f246dc971" role="button">See More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fasa">
+
+            </div>
+        </div>
+        <div class="item">
+            <div class="fill" style="background-image:url('http://my.twenty-one.co/uploads/services/nO2fH58-athos-monasteries-new1.jpg');"></div>
+            <div class="carousel-caption">
+                <div class="carousel-fasa">
+                    <h2>Athos Cruise from Thessaloniki</h2>
+                    <h3 class="h3-carousel">The first part of the program begins with a transfer by bus to Ormos Panagias, situated in N-E of the
+                        Sithonia peninsula in Chalkidiki.</h3>
+                    <div class="carousel-price">
+                        starting at <span class="carousel-price-span">55€</span>
+                        <br>
+                        <a class="btn btn-default btn-lg carousel-button" href="http://holidaytours.gr/#/service/58d273c26377390f246dc969" role="button">See More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="fasa">
+
+            </div>
+        </div>
+        <div class="item">
+            <div class="fill" style="background-image:url('http://my.twenty-one.co/uploads/services/O892kRc-ammouliani-drenia new.jpg');"></div>
+            <div class="carousel-caption">
+                <div class="carousel-fasa">
+                    <h2>Blue Lagoon & Ammouliani Island Cruise with transfer from Halkidiki</h2>
+                    <h3 class="h3-carousel">The first part of the program begins with a transfer by bus, from your hotel to Ormos Panagias. </h3>
+                    <div class="carousel-price">
+                        starting at <span class="carousel-price-span">50€</span>
+                        <br>
+                        <a class="btn btn-default btn-lg carousel-button" href="http://holidaytours.gr/#/service/58d274316377390f246dc96a" role="button">See More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="fasa">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" data-target="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" data-target="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+</header>
+
+<!-- Page Content -->
+
+<!-- Marketing Icons Section -->
+<div class="booking-form">
+    <div class="container container-beta">
+        <div class="row">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a data-target="#profile" aria-controls="profile" role="tab" data-toggle="tab">Excursions</a></li>
+                <li role="presentation"><a data-target="#messages" aria-controls="messages" role="tab" data-toggle="tab">Packages</a></li>
+                <li role="presentation"><a data-target="#home" aria-controls="home" role="tab" data-toggle="tab">Accomodation</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+
+
+                <!--Excursions Tab-->
+                <div role="tabpanel" class="tab-pane active" id="profile">
+                    <h3 class="search-tab-title">Search for Excursions</h3>
+                    <div class="row is-flex">
+                        <div class="col-md-5 col-sm-5 col-xs-12 excursion-filter-col">
+                            <h4 class="search-input-label" ng-init="filters.destination">Destination</h4>
+                            <select class="filter-input-box" ng-model="filters.destination" ng-options="destination.title as destination.title for destination in destinations">
+                            </select>
+                        </div>
+                        <div class="col-md-5 col-sm-5 col-xs-12 excursion-filter-col">
+                            <h4 class="search-input-label" ng-init="filters.category">Category</h4>
+                            <select class="filter-input-box" ng-model="filters.category">
+                                <option value="Cruise">Cruise</option>
+                                <option value="Sailing">Sailing</option>
+                                <option value="Couples">Couples</option>
+                                <option value="Family">Family</option>
+                                <option value="Classical">Classical</option>
+                                <option value="City Break">City Break</option>
+                                <option value="Country Discovery">Country Discovery</option>
+                                <option value="Gastronomy and Wine">Gastronomy and Wine</option>
+                                <option value="Spa">Spa</option>
+                                <option value="Religious">Religious</option>
+                                <option value="Outdoor Activities">Outdoor Activities</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 col-sm-2 col-xs-12 excursion-submit-button">
+                            <a class="btn btn-primary filter-button" href="/#/services/Excursion/{{filters.destination}}/{{filters.category}}">Search</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Packages Tab-->
+                <div role="tabpanel" class="tab-pane" id="messages">
+                    <h3 class="search-tab-title">Search for Packages</h3>
+                    <div class="row is-flex">
+                        <div class="col-md-5 col-sm-5 col-xs-12 excursion-filter-col">
+                            <h4 class="search-input-label" ng-init="filters.destination">Destination</h4>
+                            <select class="filter-input-box" ng-model="filters.destination" ng-options="destination.title as destination.title for destination in destinations">
+                            </select>
+                        </div>
+                        <div class="col-md-5 col-sm-5 col-xs-12 excursion-filter-col">
+                            <h4 class="search-input-label" ng-init="filters.category">Category</h4>
+                            <select class="filter-input-box" ng-model="filters.category">
+                                <option value="Cruise">Cruise</option>
+                                <option value="Sailing">Sailing</option>
+                                <option value="Couples">Couples</option>
+                                <option value="Family">Family</option>
+                                <option value="Classical">Classical</option>
+                                <option value="City Break">City Break</option>
+                                <option value="Country Discovery">Country Discovery</option>
+                                <option value="Gastronomy and Wine">Gastronomy and Wine</option>
+                                <option value="Spa">Spa</option>
+                                <option value="Religious">Religious</option>
+                                <option value="Outdoor Activities">Outdoor Activities</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 col-sm-2 col-xs-12 excursion-submit-button">
+                            <a class="btn btn-primary filter-button" href="/#/services/Package/{{filters.destination}}/{{filters.category}}">Search</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Accomodation Tab-->
+                <div role="tabpanel row" class="tab-pane" id="home">
+                    <h3 class="search-tab-title">Search for Accomodation</h3>
+                    <form ng-submit="submitForm()">
+
+                        <div class="row is-flex">
+
+                            <div class="col-md-6 col-sm-12 col-xs-12 excursion-submit-button">
+                                <h4 class="search-input-label">Destination</h4>
+                                <!--<input class="dropdown" ng-model="accomodation.destination" ng-change="getDestinations(accomodation.destination)" type="text" required/>-->
+
+                                <input class="dropdown-toggle input-accom" data-toggle="dropdown" ng-model="accomodation.destination" ng-change="getDestinations(accomodation.destination)"
+                                    type="text" required/>
+                                <!--<a href="" class="dropdown-toggle" data-toggle="dropdown">Destination<b class="caret"></b></a>-->
+
+                                <ul class="dropdown-menu dropdown-menu-accomodation">
+                                    <li ng-repeat="choise in choises" ng-if="$index < 5" ng-click="choseDestinations(choise.topo_name_lt, choise.otag_id)">
+                                        <a>{{choise.topo_name_lt}}</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-xs-6 excursion-filter-col">
+                                <h4 class="search-input-label">Adults</h4>
+                                <select class="filter-input-box" ng-model="accomodation.rooms[0].adults" required>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-6 excursion-filter-col">
+                                <h4 class="search-input-label">Children</h4>
+                                <select class="filter-input-box" ng-change="gennerateChildrenAgesArray(accomodation.rooms[0].children)" ng-model="accomodation.rooms[0].children"
+                                    required>
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+
+                            <hr>
+                            <div class="row">
+                                <input ng-if="accomodation.rooms[0].childrenAges" ng-repeat="child in accomodation.rooms[0].childrenAges track by $index"
+                                    ng-model="accomodation.rooms[0].childrenAges[$index]" class="input-accom col-md-3" type="text"
+                                />
+                            </div>
+                            <hr>
+
+
+                            <div class="col-md-4 col-sm-6 col-xs-6 excursion-submit-button">
+                                <h4 class="search-input-label">Check In</h4>
+                                <datepicker date-format="dd-MM-yyyy">
+                                    <input class="input-accom" ng-model="accomodation.checkIn" type="text" required/>
+                                </datepicker>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6 excursion-submit-button">
+                                <h4 class="search-input-label">Check Out</h4>
+                                <datepicker date-format="dd-MM-yyyy">
+                                    <input class="input-accom" ng-model="accomodation.checkOut" type="text" required/>
+                                </datepicker>
+                            </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12 excursion-submit-button">
+                                <input type="submit" class="btn btn-primary filter-button" value="Search"></input>
+                            </div>
+                        </div>
+                        <br>
+
+                        <!--<h5 class="search-input-label" ng-if="accomodation.rooms[0].children">Children Ages</h5>-->
+                        <!--<input ng-model="accomodation.rooms[0].childrenAges[$index]" type="text" ng-repeat="i in accomodation.rooms[0].childrenAges track by $index" required/>-->
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+</div>
+
+
+<!-- Section 1 -->
+<div class="section section1">
+    <div class="container container-beta">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="home-page-heading">Top Selling Excursions</h2>
+                <h4 class="home-page-subheading">Specially Crafted For You</h4>
+            </div>
+            <div class="col-md-3 col-sm-6 top-selling-exc-col" ng-repeat="excursion in excursions" ng-if="$index < 4">
+                <a href="/#/service/{{excursion._id}}">
+                    <div class="responsive-text-2">
+                        <div class="image-overlay-text-1">
+                            <span ng-repeat="cat in excursion.category">{{cat}}<span ng-if="!$last">, </span></span>
+                        </div>
+                        <div class="image-overlay-text-2"> {{excursion.title}} <a href="/#/service/{{excursion._id}}"><span class="glyphicon glyphicon-triangle-right excursion-arrow" aria-hidden="true"></span></a></div>
+
+                    </div>
+                    <div ng-if="excursion.price">
+                        <span class="klas1">{{excursion.price}} ‎€</span>
+                    </div>
+                    <span ng-if="excursion.offer" class="special-offer-tag-2"> Special Offer </span>
+                    <img class="img-responsive img-portfolio img-hover img-section-1" ng-src='http://my.twenty-one.co/uploads/services/{{excursion.images[0].fileName}}'
+                        alt="">
+
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  SECTION 1 -->
+
+<!-- Section 2 -->
+<div class="section section2">
+    <div class="container container-beta">
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h2 class="home-page-heading">Featured Packages</h2>
+                <h4 class="home-page-subheading">Specially Crafted For You</h4>
+            </div>
+
+            <div class="col-md-12 col-xs-12 regular">
+                <slick ng-if="packages" settings="slickConfig" infinite="true" slides-to-show="3" slides-to-scroll="1">
+
+                    <div class="slick-img-carousel" ng-repeat="package in packages">
+                        <div class="row featured-package-header">
+                            <div class="col-xs-6 featured-package-header-col">
+                                <span class="featured-package-icon">
+                                    <img class="flaticon" src="../images/flaticons/placeholder-white.png">
+                                </span>
+                            </div>
+                            <div ng-if="package.price" class="col-xs-6 slick-price-package-col ">
+                                <span class="slick-price">{{package.price}} €</span>
+                            </div>
+                        </div>
+                        <img class=" img-responsive-slick-carousel slick-img" ng-src='http://my.twenty-one.co/uploads/services/{{package.images[0].fileName}}'>
+
+                        <!--<div class="ult-test">
+                            <span class="test-class-1" ng-repeat="cat in package.category">{{cat}} <span ng-if="!$last">, </span></span>
+                            <span class="test-class-2"><br>
+                                
+                            </span>
+                        </div>-->
+                        <div class="featured-package-desc">
+                            <!--<p>{{package.description | limitTo:250}}...</p>-->
+                            <p><a style="color:black" href="/#/service/{{package._id}}" class="test-class-3">{{package.title}}</a></p>
+                            <div class="featured-package-info">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <span class="featured-package-duration">
+                                            {{package.duration}}
+                                        </span>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="/#/service/{{package._id}}"><span class="glyphicon glyphicon-triangle-right package-arrow" aria-hidden="true"></span></a>
+                        </div>
+                    </div>
+                </slick>
+            </div>
+        </div>
+        <!-- ROW -->
+    </div>
+    <!-- CONTAINER -->
+</div>
+<!--  SECTION 2 -->
+
+<!--  SECTION 2.5 -->
+<div class="section section-services">
+    <div class="container container-beta">
+        <div class="row">
+            <div class="col-md-4">
+                <img class="service-flaticon" src="../images/flaticons/yatch-facing-right.png">
+                <h2>Cruises — Yachting</h2>
+                <p>In co-operation with the biggest and most reliable cruise companies, 3, 4 and 7-days cruises with luxurious
+                    ships around the magnificent Aegean or the Mediterranean Sea can be organized for you to discover the
+                    most out of Greek sea.</p>
+            </div>
+            <div class="col-md-4">
+                <img class="service-flaticon" src="../images/flaticons/van-white.png">
+                <h2>Transfers</h2>
+                <p>Since 2005 we are able to provide complete, organized and high-quality transfers to our clients, provide
+                    transfers to any destination, private tours or excursions, always looking after professionalism and style.
+                    Our Shuttle Service is the best choice to handle your transportation. Private transfers by taxi can be
+                    also arranged for individuals.</p>
+            </div>
+            <div class="col-md-4">
+                <img class="service-flaticon" src="../images/flaticons/accom-white-124.png">
+                <h2>Accommodation</h2>
+                <p>We only need to know the destination and will find the best place. We have made all the search and thus we
+                    can supply accommodation both to the travel trade and individuals. With over 400 hotels, apartments,
+                    studios and villas available for booking we can assure the best accommodation through a wide selection
+                    of services in many destinations in Greece.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="service-cont">
+
+</div>
+
+<!--  SECTION 2.5 -->
+
+<!-- Section 3 -->
+<div class="section section3">
+    <div class="container container-beta">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="home-page-heading">Most Popular Destinations</h2>
+                <h4 class="home-page-subheading">Discover Northern Greece</h4>
+            </div>
+
+            <div class="col-md-3 col-sm-6 pop-dest-col" ng-repeat="destination in destinations" ng-if="$index < 4">
+                <a href="/#/destination/{{destination._id}}">
+                    
+                        
+                    
+                    <img class="img-responsive img-portfolio img-hover img-section-2" ng-src='http://my.twenty-one.co/uploads/destinations/{{destination.images[0].fileName}}' alt="">
+                    <div class="sudo1">
+                            {{destination.title}}
+                        </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  SECTION 3 -->
+
+<!-- Section 4 -->
+<!--<div class="section section4">
+    <div class="container container-beta">
+        <div class="row">
+            <div class="col-md-6">
+                <h4 class="home-page-subheading">Hot Promotion</h4>
+                <h1 class="home-page-heading">Meteora</h1>
+                <h4 class="home-page-subheading">2300 ‎€ / 2 PERSONS / 7 NIGHTS</h4>
+                <div class="hot-promo-buttons">
+                    <div class="col-sm-5 col-sm-offset-1">
+                        <a href="#" class="btn btn-info btn-lg" role="button">Book Now</a>
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="#" class="btn btn-info btn-lg" role="button">See Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>-->
+<!--  SECTION 4 -->
+
+<div class="section section-reviews">
+    <div class="container container-beta">
+        <h2 class="home-page-heading">Testimonials</h2>
+        <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item review-item active">
+                    <div class="review-date">19/10/2016</div>
+                    <div class="review-author">Jacky, Ramblers Leader</div>
+                    <div class="review-div">
+                        I would like to express my and my husband's thanks to you for the organising of the various tours last week to Thessaloniki
+                        City, Mt Athos, Pella -Vergina, & Dion-Olympus. We were so fascinated with the beautiful sites of
+                        Macedonia. Having touched the history of this region only on the surface in school, we learnt so
+                        much more about your beautiful country through the knowledge of your tour guides Anastasia, Evangelo
+                        and Dimitri - they were all so amazing and we will be taking back to the UK lasting memories of this
+                        region of Greece. We would also like to thank you sincerely for organising our transport from/to
+                        our hotel (The Ambassador). All the best and we hope to visit again in the not-too-distant future.
+                        Kind regards, Boni & Sacramenta Rodrigues
+                    </div>
+                </div>
+
+                <div class="item review-item">
+                    <div class="review-div">
+                        I would like you to know how much my sister and I enjoyed our excursions to Pella-Vergina on the 11th May and to Dion-Olympos
+                        on the 12th. These visits were greatly enhanced by the excellent guide Demitria. Her knowledge is
+                        amazing and she uses the time so effectively to draw our attention to the most important objects,
+                        facts and artifacts. She is very easy follow and we didn't feel 'lectured to'. Please let her know
+                        how much we appreciated the essential part she played in this memorable experience. Thank you, Valerie
+                        Sellars
+                    </div>
+                </div>
+
+                <div class="item review-item">
+                    <div class="review-div">
+                        Thank you very much for having arranged to deliver us the jumper. We also wish to thank you for the wonderful excursions
+                        that your company has organised and we really appreciated the professional value of the guides, with
+                        special mention to Demetra. Best regards, Rosanna e Franco
+                    </div>
+                </div>
+
+                <div class="item review-item">
+                    <div class="review-div">
+                        I just wanted to take this opportunity to say how satisfied I was with your services. I booked a return taxi from and to
+                        the airport and both times the drivers were on time and very friendly. On 2 other occasions I booked
+                        excursions, one to Mount Olympus and one to Pella and both were just perfect. Guides were very good,
+                        the excursions well organised and vey interesting. If I ever return to Thessa, I will defintitely
+                        call on your services again. With best regards, Eliana
+                    </div>
+                </div>
+
+                <div class="item review-item">
+                    <div class="review-div">
+                        Thank you so much for the wonderful day trip that you organised for us, it could not have been better. Theodore the driver
+                        was very helpful throughout the day and ensured that the timings went smoothly. Despina the guide
+                        was brilliant. Her contribution was very informative and entertaining. We were really happy with
+                        her and would like to thank her very much. She even managed to show us the crucial parts of the monasteries
+                        when there were hardly any other visitors around, which made our experience much more enjoyable.
+                        All in all a brilliant day trip which we will remember for a long time. Thanks again for such a great
+                        day. Martyn
+                    </div>
+                </div>
+
+
+                <div class="item review-item">
+                    <div class="review-div">
+                        Hereby a short describing of our experience with Filos Travel. We just saw the mini van of Filos in Nea Moudania(Greece)
+                        and notice the phonenumber. After calling with the agency we got a call from a travel agent that
+                        work in Nea Moudania and surroundings. After a appointment with the agent we arranged 3 different
+                        activities according to our wishes. It went very quick and effective. That were the activities below:
+                        - Boat trip, - Scuba Diving, - Canyoning. Especially the last one that was amazing and full of adrenaline
+                        rush. And when we were done we got the official Canyonner Card of the first level Canyonner. We'd
+                        like to give a special thanks to an agent of Filos Travel, Miss Olivera Stevanovic who arranged our
+                        activities in No Time. Compliments!!! Keep up the good job and high level Service guys. Thanks a
+                        lot for our vacation memories of 2016. Kind regards, Vatche & Crew (Biermans, TW, EW, Micheal, Nicky
+                    </div>
+                </div>
+
+                <div class="item review-item">
+                    <div class="review-div">
+                        My Filos Tours experience was, is, and will always be memorable. The personal attention, knowledge, and efforts of your staff
+                        are excellent and noteworthy...from the emails and phone calls, the drivers, guides...the true spirit
+                        of philoxenia to this Greek American. Your organized tours to Pella and Vergina, which included transfer
+                        from the airport...as well as second day tour to Dion and Mt. Olympus, were a pleasure. There was
+                        ample time to view the ancient sites, museums, nature, and enjoy lunch. Personal transport via Filos
+                        Tours to Aiani on Lazarus Saturday, and to Amphipoli on Monday, were masterful in attention to detail.
+                        Each of my four individual day with you were exemplary, and will never be forgotten. The day in Aiani
+                        was truly more than I could ever have imagined. The welcome from the village...the personal conversations...Museum...Church
+                        of Aghios Georgios...the incomparable Lazarines...from young girls to senior women...in ethnic costumes,
+                        carrying traditions of their heritage to this and future generations...the kindness of each and every
+                        person I met in that village...From the bottom of my heart, I thank you for this awesome experience...memories
+                        to last a lifetime! Helen Lambron, USA
+                    </div>
+                </div>
+
+                <div class="item review-item">
+                    <div class="review-div">
+                        Καλημέρα σας και καλή εβδομάδα. Να σας ευχαριστήσω άλλη μια φορά για τις υπηρεσίες σας. Ο οδηγός ήταν ευγενέστατος και έδειξε
+                        τον απαιτούμενο επαγγελματισμό. Για την πόλη σας είναι περιττό να σας πω.!!!!!!! Καλή συνέχεια Ελπίζω
+                        να σας δω στην Αθήνα. Καλή συνέχεια.
+                    </div>
+                </div>
+
+                <div class="item review-item">
+                    <div class="review-date">19/10/2016</div>
+                    <div class="review-author">Jacky, Ramblers Leader</div>
+                    <div class="review-div">
+                        Thank you Christos, from the British Ramblers. You are an excellent driver. Best wishes Jacky Ramblers Leader
+                    </div>
+                </div>
+
+                <div class="item review-item">
+                    <div class="review-date">27/9/2016</div>
+                    <div class="review-author">Pieter De Smedt</div>
+                    <div class="review-div">
+                        Kalimera, Last week my family and I had the pleasure to have the transportation from Thessaloniki airport and back by your
+                        services of Filos (via hotel reception). This was perfect for us and thanks and congrats to your
+                        friendly and good driver Mr. Dimitris. Kind regards, Pieter De Smedt
+                    </div>
+                </div>
+                <div class="item review-item">
+                    <div class="review-date">18/8/2016</div>
+                    <div class="review-author">Pamela Groves</div>
+                    <div class="review-div">
+                        Hello, I have just returned from our holiday in Halkidiki, Pefkohori booking ref LOV-5554002 today. I just wanted to take
+                        the time to thank your company for an excellent transfer service to and from the airport. Both drivers
+                        were friendly and very accomodating, excellent vechiles wonderful manners. It was a wonderful and
+                        stess free experience and I will not hesitate to recommend your company. Thank you again, kind regards
+                        Mrs Pamela Groves
+                    </div>
+                </div>
+                <div class="item review-item">
+                    <div class="review-date">8/6/2016</div>
+                    <div class="review-author">Israeli group</div>
+                    <div class="review-div">
+                        For our brave driver Anthony! With many thans for your very professional driving, lots of patience and always ready to help.
+                        Thank you so much. From all the participants in the Israeli group 3-8/6/2016
+                    </div>
+                </div>
+                <div class="item review-item">
+                    <div class="review-date">8/6/2016</div>
+                    <div class="review-author">Ben Ayalon</div>
+                    <div class="review-div">
+                        The same driver tomorrow and Friday? We love him. Just a great guy and very careful driver. Thanks Ben Ayalon
+                    </div>
+                </div>
+                <div class="item review-item">
+                    <div class="review-date">13/6/2016</div>
+                    <div class="review-author">Ben</div>
+                    <div class="review-div">
+                        Hi Vasso I just want to thank you for all your help and support during the planning process. It was pressure working with
+                        you and thank you for sending Yanis to be our driver, he is a great guy. Thank you Ben
+                    </div>
+                </div>
+                <div class="item review-item">
+                    <div class="review-date">8/6/2016</div>
+                    <div class="review-author">Hofman Luc</div>
+                    <div class="review-div">
+                        Hello Many thanks for excursion today! Perfect coach ! Perfect driver ! Perfect in time! Thanks Hofman Luc
+                    </div>
+                </div>
+                <div class="item review-item">
+                    <div class="review-date">4/7/2016</div>
+                    <div class="review-author">Ganya & Yehuda</div>
+                    <div class="review-div">
+                        We thank a lot for a wonderful tour you organized to the group of our company "KEDEM TOUR CENTER". We loved every moment
+                        and every place in Greece and Macedonia. The plain, hotels, bus and the driver have been excellent.
+                        The group had only good words to say, and so are us. Please send this letter to the agency in Greece
+                        , with our appreciation. Ganya & Yehuda Kedem Tour Center
+                    </div>
+                </div>
+                <div class="item review-item">
+                    <div class="review-date">21/7/2016</div>
+                    <div class="review-author">Shelley Wormall</div>
+                    <div class="review-div">
+                        Thank you, and thank you for all your help with our trip, we will definitely use your service again and we have already been
+                        recommending you.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" data-target="#myCarousel2" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+        </a>
+            <a class="right carousel-control" data-target="#myCarousel2" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+        </a>
+        </div>
+    </div>
+</div>
+
+<!-- Section 5 -->
+<div class="section section5">
+    <div class="container container-beta">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="home-page-subheading">Subscribe to our mailing list</h2>
+                <h4 class="home-page-heading">BE THE FIRST TO GET LATEST NEWS AND OFFERS!</h4>
+                <div class="col-md-12">
+                    <form>
+                        <div class="col-md-6 col-md-offset-2 newsletter-input-col">
+                            <div class="form-group">
+                                <input type="email" class="form-control newsletter-form" id="exampleInputEmail1" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-md-3 newsletter-form newsletter-button-col">
+                            <button type="submit" class="btn btn-default btn-newsletter">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  SECTION 5 -->
+
+<!-- Section 6 -->
+
+<!--  SECTION 5 -->
+<script>
+    $(function () {
+        $('#myCarousel').carousel({ interval: 3000, pause: "false" });
+    });
+
+</script>
+<script type="text/javascript">
+    $(function () {
+        $('#myCarousel2').carousel({ interval: 3000, pause: "false" });
+    });
+
+</script>

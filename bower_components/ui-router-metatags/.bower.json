@@ -1,0 +1,43 @@
+{
+  "name": "ui-router-metatags",
+  "description": "Metatags support for the AngularUI Router",
+  "main": "dist/ui-router-metatags.js",
+  "authors": [
+    "Tinus Aamand Norstved"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ui-router",
+    "meta tags"
+  ],
+  "homepage": "https://github.com/tinusn/ui-router-metatags",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tinusn/ui-router-metatags"
+  },
+  "moduleType": [
+    "globals"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-ui-router": "~0.2.15"
+  },
+  "version": "1.0.3",
+  "_release": "1.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.3",
+    "commit": "3cafd8d34432aae925370e15e40773c0748676ab"
+  },
+  "_source": "https://github.com/tinusn/ui-router-metatags.git",
+  "_target": "^1.0.3",
+  "_originalSource": "ui-router-metatags",
+  "_direct": true
+}
