@@ -854,7 +854,7 @@ img.tour-header-img {
 }
 
 .test {
-    background-image: url(../images/slider/5.jpeg);
+    /*background-image: url(../images/slider/5.jpeg);*/
     height: 610px;
     /*padding-top: 113px;*/
     background-size: cover;
@@ -2487,4 +2487,7 @@ button.btn.filters-btn-2.btn-default.btn-lg.ng-scope {
 }
 .section-reviews {
     height: 350px;
+}
+.children-ages-class {
+    display: none;
 }
